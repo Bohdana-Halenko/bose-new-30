@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <script type="module" crossorigin src="/bose-new-30/assets/index-41f981f3.js"></script>
-    <link rel="stylesheet" href="/bose-new-30/assets/index-536a23cd.css">
+    <script type="module" crossorigin src="/bose-new-30/assets/index-8ed1ef15.js"></script>
+    <link rel="stylesheet" href="/bose-new-30/assets/index-40693a0e.css">
   </head>
   <body>
     <header class="header">
@@ -110,20 +110,33 @@
           of playback
         </p>
         <h1 class="header__title">Headphones Bose NC 700</h1>
-        <button class="header__button">Order</button>
+        <button class="header__button btn-open" data-modal-open>Order</button>
       </div>
       <picture>
-        <source srcset="/bose-new-30/assets/blackbose-b657cbed.png 1x, /bose-new-30/assets/blackbose@2x-4f1f1d77.png 2x" type="image/png">
-        <source srcset="/bose-new-30/assets/blackbose-f420951b.webp 1x, /bose-new-30/assets/blackbose@2x-912877af.webp 2x" type="image/webp">
+        <source
+          srcset="/bose-new-30/assets/blackbose-b657cbed.png 1x, /bose-new-30/assets/blackbose@2x-4f1f1d77.png 2x"
+          type="image/png"
+        />
+        <source
+          srcset="/bose-new-30/assets/blackbose-f420951b.webp 1x, /bose-new-30/assets/blackbose@2x-912877af.webp 2x"
+          type="image/webp"
+        />
         <img class="header__img" src="/bose-new-30/assets/blackbose-b657cbed.png" alt="blackBose" />
       </picture>
     </div>
   </div>
 
-
   <!-- modal window -->
-
-  
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-btn" data-modal-close>
+        <svg class="modal-close">
+          <use class="close" href="/bose-new-30/assets/symbol-defs-bb5964fd.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h2 class="modal__title">Thanks for your purchase :)</h2>
+    </div>
+  </div>
 </header>
 
     <section class="design">
