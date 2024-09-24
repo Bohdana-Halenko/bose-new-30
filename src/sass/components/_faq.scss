@@ -129,7 +129,7 @@
     padding-bottom: 170px;
   }
   .faq__title {
-    font-size: 24px;
+    font-size: 50px;
   }
   .faq__text {
     font-weight: 600;
@@ -142,5 +142,11 @@
   .faq__mark {
     font-size: 28px;
     padding: 11px 18px;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+  }
+  .faq__question {
+    position: relative;
   }
 }
