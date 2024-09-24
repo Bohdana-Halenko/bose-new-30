@@ -11,13 +11,20 @@
 }
 
 .history__left-photo {
+
     width: 280px;
-    height: 251px;
+    height: 343px;
+}
+
+.history__symbol {
+    width: 34px;
+    height: 25px;
 }
 
 .history__right-photo {
     width: 280px;
-    height: 343px;
+    height: 251px;
+    margin-bottom: 32px;
 }
 
 .history__left-title {
@@ -86,7 +93,7 @@
     font-size: 20px;
     line-height: 125%;
     color: #e7e7e7;
-    margin-top: 80px;
+    margin-top: 24px;
 }
 
 .history__right-subtitle {
@@ -115,11 +122,13 @@
     .history__left-photo {
         width: 294px;
         height: 355px;
+
     }
 
     .history__right-photo {
-        width: 354px;
-        height: 524px;
+        width: 334px;
+        height: 460px;
+        margin-bottom: 0;
     }
 
     .history__left-text-two {
@@ -141,12 +150,13 @@
     }
 
     .history__right-text {
-        display: inline;
+        display: inline-block;
         font-weight: 400;
         font-size: 16px;
         line-height: 145%;
         color: rgba(255, 255, 255, 0.8);
         margin-top: 32px;
+        margin-bottom: 133px;
     }
 
     .history__text-photo {
@@ -168,7 +178,8 @@
         font-size: 20px;
         line-height: 125%;
         color: #e7e7e7;
-        margin-top: 210px;
+        margin-top: 52px;
+        width: 294px;
     }
 
     .history__left-pad {
@@ -208,12 +219,13 @@
     }
 
     .history__right-text {
-        display: inline;
+        display: inline-block;
         font-weight: 400;
         font-size: 20px;
         line-height: 145%;
         color: rgba(255, 255, 255, 0.8);
         width: 510px;
+        margin-bottom: 125px;
     }
 
     .history__right-text-mobile {
@@ -225,18 +237,20 @@
         font-size: 28px;
         line-height: 125%;
         color: #e7e7e7;
+        margin-top: 50px;
+        width: 382px;
     }
 
     .history__left-photo {
-        width: 600px;
-        height: 550px;
-        
+        width: 290px;
+        height: 355px;
+
     }
 
     .history__right-photo {
-        width: 290px;
-        height: 355px;
-        
+        width: 600px;
+        height: 550px;
+
     }
 
     .history__content {
